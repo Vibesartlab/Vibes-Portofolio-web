@@ -17,7 +17,7 @@ export const siteContent = [
         name: "Future Visions",
         path: "/ai-art/future-visions",
         images: [
-          "https://images.unsplash.com/photo-1593642634367-d91a135587b5",
+          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
           "https://images.unsplash.com/photo-1604014237744-4d6f385c61e8",
           "https://images.unsplash.com/photo-1603989574081-4b19eecb7d37"
         ]

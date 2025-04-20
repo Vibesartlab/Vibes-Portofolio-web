@@ -47,7 +47,7 @@ export function ImageShowcase() {
           <CarouselContent>
             {shuffledImages.map((image, index) => (
               <CarouselItem key={index}>
-                <div className="relative w-full flex items-center justify-center bg-gray-100">
+                <div className="relative w-full flex items-center justify-center bg-transparent">
                   <img
                     src={image.url}
                     alt={image.alt}
