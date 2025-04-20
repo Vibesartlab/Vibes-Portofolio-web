@@ -5,7 +5,7 @@ export function Navigation() {
   return (
      <nav className="w-full sticky top-0 z-50 bg-white/70 backdrop-blur-md shadow-sm border-b border-gray-200 transition-all">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link to="/" className="text-lg font-bold">My Portfolio</Link>
+        <Link to="/" className="text-lg font-bold">Vibes Portfolio</Link>
         <div className="space-x-6 flex items-center">
           {siteContent.map((category) => (
             <Link

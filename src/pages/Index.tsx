@@ -32,7 +32,7 @@ export default function Index() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                src="https://res.cloudinary.com/deq0m48pk/image/upload/v1745147682/mjkloter10_Chameleon_camouflaging_on_a_tree_branch_close-up_v_423bc9d8-43ee-443d-8383-21fc9203dd79_0_uhgftt.png"
                 alt="Profile"
                 className="rounded-lg shadow-xl w-full object-cover"
               />
