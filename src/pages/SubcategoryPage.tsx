@@ -1,8 +1,10 @@
 import { useParams } from "react-router-dom";
 import { siteContent } from "../data/siteContent";
+import { useState } from "react";
 
 export default function SubcategoryPage() {
   const { categorySlug, subSlug } = useParams();
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const fullSubPath = `/${categorySlug}/${subSlug}`;
   let matchedSub = null;
@@ -23,16 +25,31 @@ export default function SubcategoryPage() {
         {matchedSub.images.map((url, idx) => (
           <div
             key={idx}
-            className="aspect-square flex items-center justify-center bg-gray-100 rounded-lg shadow"
+            className="aspect-square flex items-center justify-center bg-gray-100 rounded-lg shadow cursor-pointer"
+            onClick={() => setSelectedImage(url)}
           >
             <img
               src={url}
               alt={matchedSub.name}
-              className="object-contain max-w-full max-h-full"
+              className="object-contain max-w-full max-h-full transition-transform duration-300 hover:scale-105"
             />
           </div>
         ))}
       </div>
+
+      {/* Modal Zoom Gambar */}
+      {selectedImage && (
+        <div
+          className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50"
+          onClick={() => setSelectedImage(null)}
+        >
+          <img
+            src={selectedImage}
+            alt="Zoomed"
+            className="max-w-3xl max-h-[80vh] rounded-xl shadow-lg"
+          />
+        </div>
+      )}
     </div>
   );
 }
