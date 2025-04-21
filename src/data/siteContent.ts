@@ -15,16 +15,16 @@ export const siteContent = [
       },
       {
         name: "Photography",
-        path: "/ai-art/future-visions",
+        path: "/ai-art/photography",
         images: [
           "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
-          "ttps://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
-          "ttps://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png"
+          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
+          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png"
         ]
       },
       {
         name: "Illustration",
-        path: "/ai-art/future-visions",
+        path: "/ai-art/illustration",
         images: [
           "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
           "ttps://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
@@ -49,7 +49,7 @@ export const siteContent = [
       },
       {
         name: "Wordmark",
-        path: "/logos/minimal",
+        path: "/logos/wordmark",
         images: [
           "https://images.unsplash.com/photo-1581089781785-603411fa81c6",
           "https://images.unsplash.com/photo-1590073242670-6a0faad193a3",
@@ -74,10 +74,10 @@ export const siteContent = [
       },
       {
         name: "3D Icons",
-        path: "/icons/flat-icons",
+        path: "/icons/3d-icons",
         images: [
           "https://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png",
-          "hhttps://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png",
+          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png",
           "https://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png"
         ]
       }
