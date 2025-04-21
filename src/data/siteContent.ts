@@ -14,12 +14,21 @@ export const siteContent = [
         ]
       },
       {
-        name: "Future Visions",
+        name: "Photography",
         path: "/ai-art/future-visions",
         images: [
           "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
-          "https://images.unsplash.com/photo-1604014237744-4d6f385c61e8",
-          "https://images.unsplash.com/photo-1603989574081-4b19eecb7d37"
+          "ttps://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
+          "ttps://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png"
+        ]
+      },
+      {
+        name: "Illustration",
+        path: "/ai-art/future-visions",
+        images: [
+          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
+          "ttps://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
+          "ttps://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png"
         ]
       }
     ]
@@ -31,6 +40,15 @@ export const siteContent = [
     subcategories: [
       {
         name: "Minimal",
+        path: "/logos/minimal",
+        images: [
+          "https://images.unsplash.com/photo-1581089781785-603411fa81c6",
+          "https://images.unsplash.com/photo-1590073242670-6a0faad193a3",
+          "https://images.unsplash.com/photo-1581090700227-4c4f50b2c0f4"
+        ]
+      },
+      {
+        name: "Wordmark",
         path: "/logos/minimal",
         images: [
           "https://images.unsplash.com/photo-1581089781785-603411fa81c6",
@@ -58,9 +76,9 @@ export const siteContent = [
         name: "3D Icons",
         path: "/icons/flat-icons",
         images: [
-          "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
-          "https://images.unsplash.com/photo-1604014237572-2fda9a470c98",
-          "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7"
+          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png",
+          "hhttps://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png",
+          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png"
         ]
       }
     ]

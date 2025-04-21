@@ -45,8 +45,8 @@ export default function Index() {
           <h2 className="text-3xl font-bold text-gray-900 mb-12">Featured Work</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: "Logo Design", path: "/logos", image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" },
               { title: "AI-Generated Art", path: "/ai-art", image: "https://i.imgur.com/pzpTSYn.png"              },
+              { title: "Logo Design", path: "/logos", image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" },
               { title: "Icon Collections", path: "/icons", image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" },
             ].map((category) => (
               <Link
