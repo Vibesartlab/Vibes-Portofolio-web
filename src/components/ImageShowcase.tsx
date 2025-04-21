@@ -10,13 +10,11 @@ import Autoplay from "embla-carousel-autoplay";
 import { siteContent } from "../data/siteContent";
 
 const flattenedGallery = siteContent.flatMap((category) =>
-  category.subcategories.flatMap((sub) =>
-    sub.images.map((url) => ({
-      url,
-      alt: sub.name,
-      category: category.name,
-    }))
-  )
+  category.subcategories.map((sub) => ({
+    url: sub.image,
+    alt: sub.name,
+    category: category.name,
+  }))
 );
 
 function shuffleArray(array) {

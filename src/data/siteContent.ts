@@ -7,31 +7,76 @@ export const siteContent = [
       {
         name: "Digital Dreams",
         path: "/ai-art/digital-dreams",
-        images: [
-          "https://images.unsplash.com/photo-1549887534-679d1c79a4d1",
-          "https://images.unsplash.com/photo-1581092917165-79f4c10c7d4a",
-          "https://images.unsplash.com/photo-1602526219017-2917f9d7c1e9"
-        ]
+        image: "https://images.unsplash.com/photo-1549887534-679d1c79a4d1",
+        // ← Level 3: Collection (nama + thumbnail + daftar gambar)
+        collections: [
+          {
+            name: "Sample Collection 1",
+            image: "/images/collection-thumb-1.jpg",
+            images: [
+              "/images/sample1.jpg",
+              "/images/sample2.jpg"
+            ]
+          },
+          {
+            name: "Sample Collection 2",
+            image: "/images/collection-thumb-2.jpg",
+            images: [
+              "/images/sample3.jpg",
+              "/images/sample4.jpg"
+            ]
+          }
+        ],
       },
       {
         name: "Photography",
         path: "/ai-art/photography",
-        images: [
-          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
-          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
-          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png"
-        ]
+        image: "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
+        // ← Level 3: Collection (nama + thumbnail + daftar gambar)
+        collections: [
+          {
+            name: "Sample Collection 1",
+            image: "/images/collection-thumb-1.jpg",
+            images: [
+              "/images/sample1.jpg",
+              "/images/sample2.jpg"
+            ]
+          },
+          {
+            name: "Sample Collection 2",
+            image: "/images/collection-thumb-2.jpg",
+            images: [
+              "/images/sample3.jpg",
+              "/images/sample4.jpg"
+            ]
+          }
+        ],
       },
       {
         name: "Illustration",
         path: "/ai-art/illustration",
-        images: [
-          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
-          "ttps://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
-          "ttps://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png"
-        ]
+        image: "https://res.cloudinary.com/deq0m48pk/image/upload/v1745147685/mjkloter10_Jaguar_resting_in_shadowy_jungle_area_dappled_soft_b8c525c1-18a6-4d62-8df8-f07ad8a78c4c_0_bykykg.png",
+        // ← Level 3: Collection (nama + thumbnail + daftar gambar)
+        collections: [
+          {
+            name: "Sample Collection 1",
+            image: "/images/collection-thumb-1.jpg",
+            images: [
+              "/images/sample1.jpg",
+              "/images/sample2.jpg"
+            ]
+          },
+          {
+            name: "Sample Collection 2",
+            image: "/images/collection-thumb-2.jpg",
+            images: [
+              "/images/sample3.jpg",
+              "/images/sample4.jpg"
+            ]
+          }
+        ],
       }
-    ]
+    ]    
   },
   {
     name: "Logo Design",
@@ -41,22 +86,52 @@ export const siteContent = [
       {
         name: "Minimal",
         path: "/logos/minimal",
-        images: [
-          "https://images.unsplash.com/photo-1581089781785-603411fa81c6",
-          "https://images.unsplash.com/photo-1590073242670-6a0faad193a3",
-          "https://images.unsplash.com/photo-1581090700227-4c4f50b2c0f4"
-        ]
+        image: "https://images.unsplash.com/photo-1581089781785-603411fa81c6",
+        // ← Level 3: Collection (nama + thumbnail + daftar gambar)
+        collections: [
+          {
+            name: "Sample Collection 1",
+            image: "/images/collection-thumb-1.jpg",
+            images: [
+              "/images/sample1.jpg",
+              "/images/sample2.jpg"
+            ]
+          },
+          {
+            name: "Sample Collection 2",
+            image: "/images/collection-thumb-2.jpg",
+            images: [
+              "/images/sample3.jpg",
+              "/images/sample4.jpg"
+            ]
+          }
+        ],
       },
       {
         name: "Wordmark",
         path: "/logos/wordmark",
-        images: [
-          "https://images.unsplash.com/photo-1581089781785-603411fa81c6",
-          "https://images.unsplash.com/photo-1590073242670-6a0faad193a3",
-          "https://images.unsplash.com/photo-1581090700227-4c4f50b2c0f4"
-        ]
+        image: "https://images.unsplash.com/photo-1581089781785-603411fa81c6",
+        // ← Level 3: Collection (nama + thumbnail + daftar gambar)
+        collections: [
+          {
+            name: "Sample Collection 1",
+            image: "/images/collection-thumb-1.jpg",
+            images: [
+              "/images/sample1.jpg",
+              "/images/sample2.jpg"
+            ]
+          },
+          {
+            name: "Sample Collection 2",
+            image: "/images/collection-thumb-2.jpg",
+            images: [
+              "/images/sample3.jpg",
+              "/images/sample4.jpg"
+            ]
+          }
+        ],
       }
-    ]
+    ]    
   },
   {
     name: "Icons",
@@ -66,21 +141,62 @@ export const siteContent = [
       {
         name: "Flat Icons",
         path: "/icons/flat-icons",
-        images: [
-          "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
-          "https://images.unsplash.com/photo-1604014237572-2fda9a470c98",
-          "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7"
-        ]
+        image: "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
+        // ← Level 3: Collection (nama + thumbnail + daftar gambar)
+        collections: [
+          {
+            name: "Sample Collection 1",
+            image: "/images/collection-thumb-1.jpg",
+            images: [
+              "/images/sample1.jpg",
+              "/images/sample2.jpg"
+            ]
+          },
+          {
+            name: "Sample Collection 2",
+            image: "/images/collection-thumb-2.jpg",
+            images: [
+              "/images/sample3.jpg",
+              "/images/sample4.jpg"
+            ]
+          }
+        ],
       },
       {
         name: "3D Icons",
         path: "/icons/3d-icons",
+        image: "https://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png",
+        // ← Level 3: Collection (nama + thumbnail + daftar gambar)
+        collections: [
+          {
+            name: "Sample Collection 1",
+            image: "/images/collection-thumb-1.jpg",
+            images: [
+              "/images/sample1.jpg",
+              "/images/sample2.jpg"
+            ]
+          },
+          {
+            name: "Sample Collection 2",
+            image: "/images/collection-thumb-2.jpg",
+            images: [
+              "/images/sample3.jpg",
+              "/images/sample4.jpg"
+            ]
+          }
+        ],
+      },
+      {
+        name: "Icons X",
+        path: "/icons/icons-x",
+        image: "https://images.unsplash.com/photo-1593642532973-d31b6557fa68", // ← thumbnail untuk subkategori
         images: [
+          "https://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png",
           "https://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png",
           "https://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png",
           "https://res.cloudinary.com/deq0m48pk/image/upload/v1745139626/icon2_amugrx.png"
         ]
-      }
-    ]
+      }      
+    ]    
   }
 ];
